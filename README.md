@@ -1,10 +1,9 @@
-
-
-usage: deployment-immediacy.py [-h] --apic APIC --username USERNAME [--password PASSWORD] --tenant TENANT --ap AP --epg EPG --immediacy {immediate,lazy} [--nodes NODE_ID [NODE_ID ...]] [--dry-run] [--no-verify]
-
 Update deployment immediacy for static ports in an ACI EPG.
 
-```
+Usage
+
+```deployment-immediacy.py [-h] --apic APIC --username USERNAME [--password PASSWORD] --tenant TENANT --ap AP --epg EPG --immediacy {immediate,lazy} [--nodes NODE_ID [NODE_ID ...]] [--dry-run] [--no-verify]
+
 options:
   -h, --help            show this help message and exit
   --apic APIC           APIC hostname or IP

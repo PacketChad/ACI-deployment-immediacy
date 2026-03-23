@@ -1,7 +1,8 @@
-Update deployment immediacy for static ports in an ACI EPG.
+Update deployment immediacy for static ports in an ACI EPG
 
 
-Usage
+
+USAGE
 
 ```deployment-immediacy.py [-h] --apic APIC --username USERNAME [--password PASSWORD] --tenant TENANT --ap AP --epg EPG --immediacy {immediate,lazy} [--nodes NODE_ID [NODE_ID ...]] [--dry-run] [--no-verify]
 
@@ -22,19 +23,23 @@ options:
 ```
 
 
-Examples:
+
+EXAMPLES
 
 Perform a dry run on a single node (101) with static ports in an EPG that are currently set to lazy/on-demand
 
 ```python deployment-immediacy.py --apic APIC --username USERNAME --password PASSWORD --tenant TENANT --ap AP --epg EPG --immediacy immediate --nodes 101 --dry-run --no-verify```
 
+
 Perform a dry run on all nodes with static ports in an EPG that are currently set to lazy/on-demand
 
 ```python deployment-immediacy.py --apic APIC --username USERNAME --password PASSWORD --tenant TENANT --ap AP --epg EPG --immediacy immediate --dry-run --no-verify```
 
+
 Perform an update on a single node (101) with static ports in an EPG that are currently set to lazy/on-demand
 
 ```python deployment-immediacy.py --apic APIC --username USERNAME --password PASSWORD --tenant TENANT --ap AP --epg EPG --immediacy immediate --nodes 101 --no-verify```
+
 
 Perform an update on all nodes with static ports in an EPG that are currently set to lazy/on-demand
 

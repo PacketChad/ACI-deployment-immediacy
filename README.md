@@ -1,4 +1,4 @@
-Update deployment immediacy for static ports in an ACI EPG \
+Update deployment immediacy for static ports in an ACI EPG
 
 ```
 options:

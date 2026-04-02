@@ -1,6 +1,5 @@
 Update deployment immediacy for static ports in an ACI EPG \
-\
-\
+
 ```
 options:
   -h, --help            show this help message and exit
